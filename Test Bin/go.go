@@ -36,4 +36,11 @@ func main() {
 	for index, element := range works {
 		fmt.Println(index, element)
 	}
+
+	p := new(int)
+	q := new(int)
+	fmt.Println(*p)
+	fmt.Print(p == q)
+	*p = 2
+	fmt.Println(*p)
 }
