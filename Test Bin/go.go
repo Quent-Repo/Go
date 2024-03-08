@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"math"
 )
 
 func main() {
@@ -43,4 +44,10 @@ func main() {
 	fmt.Print(p == q)
 	*p = 2
 	fmt.Println(*p)
+
+	for t := 0.0;t<cycles*2*math.Pi; t+= res{
+		x:= math.Sin(t)
+		y:=math.Sin(t*freq + phase)
+
+	}
 }
